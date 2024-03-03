@@ -1,0 +1,343 @@
+body {
+	background-color: mediumpurple;
+	background-image: linear-gradient(to bottom right, mediumpurple, mediumblue);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.pfp {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid #333333;
+	border-radius: 100%;
+}
+
+.name {
+	text-align: center;
+	background-color: #333333;
+}
+
+.formername {
+	text-align: center;
+	background-color: #333333;
+	font-size: smaller;
+}
+
+.bio {
+	text-align: center;
+}
+
+.biotitle {
+	text-align: center;
+	background: blueviolet;
+	border-radius: 15px;
+}
+
+.linktitle {
+	text-align: center;
+	background-color: firebrick;
+}
+
+.pad {
+	border-radius: 25px;
+	background: #333333;
+	padding: 10px;
+}
+
+.namebackground {
+	border-radius: 25px;
+	background: #333333;
+	padding: 1px;
+}
+
+.subdomainstitle {
+	text-align: center;
+        background: blueviolet;
+        border-radius: 15px;
+}
+
+.subdomains {
+	margin: auto;
+        position: relative;
+        text-align: center;
+}
+
+.jellyfinbutton {
+	display: flex;
+        border: none;
+        background: #256DBE;
+        border-radius: 15px;
+        text-align: right;
+        align-items: center;
+        width: 422.5px;
+        height: 62.5px;
+}
+
+.jellyfinbutton:hover {
+	display: flex;
+        border: 2.5px solid black;
+        background: #256DBE;
+        border-radius: 15px;
+        text-align: right;
+        align-items: center;
+        width: 420px;
+        height: 60px;
+
+}
+
+.bitwardenbutton {
+        display: flex;
+        border: none;
+        background: #2a02c9;
+        border-radius: 15px;
+        text-align: right;
+        align-items: center;
+        width: 422.5px;
+        height: 62.5px;
+}
+
+.bitwardenbutton:hover {
+        display: flex;
+        border: 2.5px solid black;
+        background: #2a02c9;
+        border-radius: 15px;
+        text-align: right;
+        align-items: center;
+        width: 420px;
+        height: 60px;
+}
+
+.portainerbutton {
+        display: flex;
+        border: none;
+        background: #FFFFFF;
+        border-radius: 15px;
+        text-align: right;
+        align-items: center;
+        width: 422.5px;
+        height: 62.5px;
+}
+
+.portainerbutton:hover {
+        display: flex;
+        border: 2.5px solid black;
+        background: #FFFFFF;
+        border-radius: 15px;
+        text-align: right;
+        align-items: center;
+        width: 420px;
+        height: 60px;
+}
+
+.profilestitle {
+	text-align: center;
+        background: blueviolet;
+        border-radius: 15px;
+}
+
+.RiiTagTitle {
+	text-align: center;
+	background: blueviolet;
+	border-radius: 15px;
+}
+
+.redditSVG {
+	filter: brightness(0) saturate(100%);
+}
+
+button {
+	display: flex;
+	border: 2.5px solid transparent;
+	width: 100%; /* or max-width: 100%; */
+	height: auto;
+	border-radius: 15px;
+	text-align: right;
+	align-items: center;
+}
+
+button:hover {
+	border: 2.5px solid black;
+}
+
+.redditbutton {
+	background: #ff4500;
+}
+
+.twitterSVG {
+	filter: invert(0%) sepia(95%) saturate(19%) hue-rotate(298deg) brightness(90%) contrast(105%);
+}
+
+.twitter {
+	background: #23a0bd;
+}
+
+.profiles {
+	display: flex;
+	width: 100%;
+	height: 60px;
+    justify-content: space-between;
+}
+
+.RiiTagEntries {
+	margin: auto;
+	position: relative;
+	text-align: center;
+}
+
+.youtubeSVG {
+	filter: brightness(0) saturate(100%);
+}
+
+.youtubebutton {
+	background: #fe0000;
+}
+
+.youtubetitle {
+	text-align: center;
+	background: blueviolet;
+	border-radius: 15px;
+}
+
+.su {
+	border-radius: 15px;
+}
+
+.RedditText {
+	vertical-align: middle;
+	font-size: 15pt;
+	color:#FFFFFF
+}
+
+.TwitterText {
+	vertical-align: middle;
+	font-size: 13pt;
+	color: #FFFFFF;
+}
+
+.YouTubeText {
+	vertical-align: middle;
+	font-size: 15pt;
+	color:#FFFFFF
+}
+
+.JellyfinText {
+        vertical-align: middle;
+        font-size: 15pt;
+}
+
+.BitwardenText {
+        vertical-align: middle;
+        font-size: 15pt;
+}
+
+.PortainerText {
+        vertical-align: middle;
+        font-size: 15pt;
+}
+.profiles {
+	margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+.RiitagEntries {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+}
+
+.ActualRiiTag {
+	height: 500px;
+	width: auto;
+	border-radius: 25px;
+}
+
+.subdomains {
+	width: 1150px;
+	display: flex;
+    justify-content: space-between;
+}
+
+.media1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.media2 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.musictitle {
+	text-align: center;
+	background: blueviolet;
+	border-radius: 15px;
+}
+
+.actualmusic {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.youtube-1 {
+	width: 100%;
+	height: auto;
+	border-radius: 12px;
+	margin-bottom: 12pt;
+	margin-right: 12pt;
+}
+
+.youtube-2 {
+	width: 100%;
+	height: auto;
+	border-radius: 12px;
+	margin-bottom: 12pt;
+	margin-left: 12pt;
+}
+
+.youtube-3 {
+	width: 100%;
+	height: auto;
+	border-radius: 12px;
+	margin-top: 12pt;
+	margin-right: 12pt;
+}
+
+.youtube-4 {
+	width: 100%;
+	height: auto;
+	border-radius: 12px;
+	margin-top: 12pt;
+	margin-left: 12pt;
+}
+.music {
+	border-radius: 12px;
+	margin: 12pt;
+}
